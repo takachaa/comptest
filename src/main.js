@@ -4,14 +4,24 @@ import router from './router'
 import store from './store'
 import Toasted from 'vue-toasted';
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import FullpageModal from 'vue-fullpage-modal'
+import VueSweetalert2 from 'vue-sweetalert2';
+
+import 'sweetalert2/dist/sweetalert2.min.css';
+
+Vue.use(VueSweetalert2);
 
 Vue.use(Toasted)
 
+
+Vue.use(FullpageModal)
 
 //import style (<= Swiper 5.x)
 import 'swiper/css/swiper.css'
 
 Vue.use(VueAwesomeSwiper)
+
+
 
 
 

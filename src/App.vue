@@ -15,7 +15,7 @@
     </transition>
 
     <!--footer-->
-    <footer v-if="isFooterActive">
+    <footer v-show="isFooterActive">
       <div class="p-footer">
         <div class="p-footer__menu u-fbox u-fbox--alcenter">
           <!-- <a href="" class="p-footer__menu__icon p-footer__menu__icon--search"></a> -->
@@ -25,7 +25,7 @@
           <!-- <a href="" class="p-footer__menu__icon p-footer__menu__icon--star"></a> -->
           <router-link to="/favorite" class="p-footer__menu__icon p-footer__menu__icon--star"></router-link>
           <!-- <a href="" class="p-footer__menu__icon p-footer__menu__icon--message"></a> -->
-          <router-link to="/message" class="p-footer__menu__icon p-footer__menu__icon--message"></router-link>
+          <router-link to="/message" class="p-footer__menu__icon p-footer__menu__icon--message"><span class="p-footer__menu__icon__num">N</span></router-link>
           <!-- <a href="" class="p-footer__menu__icon p-footer__menu__icon--other"></a> -->
           <router-link to="/menu" class="p-footer__menu__icon p-footer__menu__icon--other"></router-link>
         </div>
@@ -36,6 +36,8 @@
 </template>
 
 <script>
+// import $ from 'jquery'
+
 export default {
   name: 'App',
   data(){
@@ -46,6 +48,19 @@ export default {
       // isSearchDetailActive : false,
       // isCompanyDetailActive : false
     }
+  },
+  mounted(){
+    console.log('app.vue mounted')
+    // /**メニューアクションサンプル**/
+    // $('.p-footer__menu__icon').on('click',function(e){
+    //   e.preventDefault();
+    //   $('.p-footer__menu__icon').removeClass('is-active');
+    //   $(this).addClass('is-active');
+    // });
+  },
+  updated(){
+    console.log('app.vue updated')
+    
   },
   methods:{
     changeHeaderFooterStatus(obj){

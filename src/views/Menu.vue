@@ -33,20 +33,20 @@
 							<!--menu-->
 							<div class="p-menu">
 								<div class="p-menu__menus u-fbox u-fbox--bxstart">
-									<a href="" class="p-menu__menus__icon p-menu__menus__icon--profile"></a>
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--search"></a> -->
-									<router-link :to="{ name: 'Top2' }" class="p-menu__menus__icon p-menu__menus__icon--search"></router-link>								
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--foot"></a> -->
+									<router-link :to="{ name: 'Profile' }" class="p-menu__menus__icon p-menu__menus__icon--profile"></router-link>	
+
+									<!-- <router-link :to="{ name: 'Top2' }" class="p-menu__menus__icon p-menu__menus__icon--search"></router-link>								 -->
+									
 									<router-link :to="{ name: 'Footprints' }" class="p-menu__menus__icon p-menu__menus__icon--foot"></router-link>
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--message"></a> -->
-									<router-link :to="{ name: 'Message' }" class="p-menu__menus__icon p-menu__menus__icon--message"></router-link>
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--good1"></a> -->
+
+									<!-- <router-link :to="{ name: 'Message' }" class="p-menu__menus__icon p-menu__menus__icon--message"></router-link> -->
+									
 									<router-link :to="{ name: 'Like', params: { componentName: 'LikeFrom' } }" class="p-menu__menus__icon p-menu__menus__icon--good1"></router-link>
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--good2"></a> -->
+
 									<router-link :to="{ name: 'Like', params: { componentName: 'LikeTo' }}" class="p-menu__menus__icon p-menu__menus__icon--good2"></router-link>									
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--star"></a> -->
-									<router-link :to="{ name: 'Favorite' }" class="p-menu__menus__icon p-menu__menus__icon--star"></router-link>
-									<!-- <a href="" class="p-menu__menus__icon p-menu__menus__icon--history"></a> -->
+									
+									<!-- <router-link :to="{ name: 'Favorite' }" class="p-menu__menus__icon p-menu__menus__icon--star"></router-link> -->
+
 									<router-link :to="{ name: 'History' }" class="p-menu__menus__icon p-menu__menus__icon--history"></router-link>
 									
 									<a href="" class="p-menu__menus__icon p-menu__menus__icon--notice"></a>

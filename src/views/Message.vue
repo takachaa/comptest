@@ -33,7 +33,7 @@
                   <div class="p-talk__user u-fbox u-fbox--alcenter is-active">
                     <div class="p-talk__user__img"><img src="../img/user.jpg" alt=""></div>
                     <dl class="p-talk__user__profile">
-                      <dt class="p-talk__user__profile__name">求職者太郎</dt>
+                      <dt class="p-talk__user__profile__name">株式会社AAAAA</dt>
                       <dd class="p-talk__user__profile__message">メッセージはありません。</dd>
                     </dl>
                   </div>
@@ -42,7 +42,7 @@
                   <div class="p-talk__user u-fbox u-fbox--alcenter">
                     <div class="p-talk__user__img"><img src="../img/user.jpg" alt=""></div>
                     <dl class="p-talk__user__profile">
-                      <dt class="p-talk__user__profile__name">株式会社AAAAA</dt>
+                      <dt class="p-talk__user__profile__name">株式会社BBBBB</dt>
                       <dd class="p-talk__user__profile__message">メッセージはありません。</dd>
                     </dl>
                   </div>
@@ -51,7 +51,7 @@
                   <div class="p-talk__user u-fbox u-fbox--alcenter is-active">
                     <div class="p-talk__user__img"><img src="../img/user.jpg" alt=""></div>
                     <dl class="p-talk__user__profile">
-                      <dt class="p-talk__user__profile__name">求職者太郎</dt>
+                      <dt class="p-talk__user__profile__name">株式会社CCCCC</dt>
                       <dd class="p-talk__user__profile__message">メッセージはありません。</dd>
                     </dl>
                   </div>
@@ -60,7 +60,7 @@
 								<div class="p-talk__user u-fbox u-fbox--alcenter" @click="moveDetail(4)">
 									<div class="p-talk__user__img"><img src="../img/user.jpg" alt=""></div>
 									<dl class="p-talk__user__profile">
-										<dt class="p-talk__user__profile__name">株式会社AAAAA</dt>
+										<dt class="p-talk__user__profile__name">株式会社DDDDD</dt>
 										<dd class="p-talk__user__profile__message">メッセージはありません。</dd>
 									</dl>
 								</div>

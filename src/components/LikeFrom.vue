@@ -19,8 +19,11 @@
       </dl>
     </div>
     <div class="p-offer__btn u-fbox u-fbox--alcenter">
-      <a class="c-btn__good">いいね</a>
+      <a class="c-btn__good is-match">いいね</a>
       <a class="c-btn__star">お気に入り</a>
+    </div>
+    <div class="p-offer__detail__details__btn">
+      <a class="c-btn__detail">求人の詳細を見る</a >
     </div>
   </div>
   <!--/job-->
@@ -44,8 +47,11 @@
       </dl>
     </div>
     <div class="p-offer__btn u-fbox u-fbox--alcenter">
-      <a class="c-btn__good is-active">いいねしました</a>
-      <a class="c-btn__star is-active">お気に入りから外す</a>
+      <a class="c-btn__good">いいね</a>
+      <a class="c-btn__star is-active">お気に入り</a>
+    </div>
+    <div class="p-offer__detail__details__btn">
+      <a class="c-btn__detail">求人の詳細を見る</a >
     </div>
   </div>
   <!--/job-->
@@ -53,10 +59,53 @@
 </template>
 
 <script>
+import $ from 'jquery'
+import ShowJobOfferDetail from '@/components/ShowJobOfferDetail'
+
 export default {
   name: 'LikeFrom',
   props: {
     
+  },
+  mounted(){
+    
+    let that = this
+
+    //以下大石追加分
+    $('.c-btn__detail').on('click', function(){
+        
+        that.showJobOfferDetail(1);
+        
+    });
+
+    /**popupサンプル**/
+    $('.is-match').on('click', function(){
+      that.$swal.fire({
+        title: '<div class="matching"></div>',
+        html: '<p>マッチングが成立しました。</p><p>メッセージのやり取りをはじめましょう！<p>',
+        showConfirmButton: false,
+        timer: 2000,
+    //     html:
+    // 'You can use <b>bold text</b>, ' +
+    // '<a href="//sweetalert2.github.io">links</a> ' +
+    // 'and other HTML tags',
+        //showConfirmButton: false,
+        confirmButtonText:'とじる',
+      })
+
+
+    });
+  },
+  methods:{
+    showJobOfferDetail(id) {   
+      this.$FModal.show(
+        { component: ShowJobOfferDetail },
+        {
+          jobOfferId : Number(id)
+        }
+      )
+    }
+
   }
 }
 </script>

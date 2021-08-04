@@ -1,6 +1,10 @@
 .l-main {
+	padding-top: 56px;
 	padding-bottom: 45px;
 	box-sizing:border-box;
+}
+.l-main.l-main--nomenu {
+	padding-bottom: 0;
 }
 .l-main__sectoin {
 	width: 100%;

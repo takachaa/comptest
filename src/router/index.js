@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
 import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
 import Top from '../views/Top.vue'
@@ -18,14 +18,21 @@ import Footprints from '../views/Footprints.vue'
 import Like from '../views/Like.vue'
 import Favorite from '../views/Favorite.vue'
 import History from '../views/History.vue'
+import Profile from '../views/Profile.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Top2',
+    component: Top2
   },
   {
     path: '/login',
@@ -120,6 +127,18 @@ const routes = [
     name: 'History',
     component: History
   },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: Profile
+  },
+  //以下上記どれにもあてまらないページリクエストはNotFoundページに飛ばす
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound
+  }
+  //ここまで
 
 ]
 

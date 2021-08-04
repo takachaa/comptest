@@ -35,29 +35,34 @@
 							<!--job-->
 							<div class="p-offer" id="1" @touchstart="OnTouchStart($event)" @touchmove="OnTouchMove($event)" @touchend="OnTouchEnd()">
 								<div class="p-offer__thumbnail">
-									<img src="../img/img_company01.png" alt="" class="p-offer__thumbnail__img">
+									<img src="../img/test10.jpg" alt="" class="p-offer__thumbnail__img">
 									<span class="p-offer__thumbnail__iconbox u-fbox u-fbox--alstart u-fbox--wauto">
 										<span class="p-offer__thumbnail__iconbox__icon p-offer__thumbnail__iconbox__icon--good"></span>
 										<span class="p-offer__thumbnail__iconbox__icon p-offer__thumbnail__iconbox__icon--favorite"></span>
 									</span>
 								</div>
 								<div class="p-offer__cat u-fbox u-fbox--alstart u-fbox--bxstart">
-									<span class="p-offer__cat__icon">正社員</span>
-									<span class="p-offer__cat__icon">未経験OK</span>
+									
+									<span class="p-offer__cat__icon">未経験</span>
+									<span class="p-offer__cat__icon">若手</span>
+									<span class="p-offer__cat__icon">中堅</span>
+									<span class="p-offer__cat__icon">熟練</span>
 								</div>
-								<h1 class="p-offer__title">(1)100%自社開発！北九州で腰を据えて働こう</h1>
+								<h1 class="p-offer__title">H・O 32歳(女性) <p class="p-offer__detail__company__place u-fbox u-fbox--alcenter u-fbox--wauto">福岡県北九州市</p></h1>
 								<p class="p-offer__desc">ネットワークエンジニア、Webエンジニア、プログラマー</p>
+								
 								<div class="p-offer__detail">
 									<dl class="p-offer__detail__company u-fbox u-fbox--alstart">
-										<dt class="p-offer__detail__company__name">株式会社ジョブマッチング</dt>
-										<dd class="p-offer__detail__company__url"><a href="" class="p-offer__detail__company__url__text">https://www.xxx.com</a></dd>
-										<dd class="p-offer__detail__company__place u-fbox u-fbox--alcenter u-fbox--wauto">福岡県北九州市</dd>
+										<dt class="p-offer__detail__company__name">一言後回しにせずすぐにやる！</dt>
+										<!-- <dd class="p-offer__detail__company__url"><a href="" class="p-offer__detail__company__url__text">https://www.xxx.com</a></dd> -->
+										<!-- <dd class="p-offer__detail__company__place u-fbox u-fbox--alcenter u-fbox--wauto">福岡県北九州市</dd> -->
+	
 									</dl>
+									<div class="p-offer__detail__arrow--down"></div>
 									<div class="p-offer__detail__details">
 										<p class="p-offer__detail__details__item">得意先様からの電話・FAXの注文に対するパソコンでの受注処理が主な業務です。<br>その他医薬品メーカーへの商品の発注や、在庫管理などの事務関連業務全般を行っていただきます。</p>
-										<p class="p-offer__detail__details__item">会社名：SHINRAI GROUP<br>
-											勤務地：熊本市 武蔵ケ丘<br>
-											給与：月給 17万〜22万円<br>
+										<p class="p-offer__detail__details__item">
+											職種：通信業<br>
 											雇用形態：正社員</p>
 										<div class="p-offer__detail__details__btn">
 											<!-- <a href="" class="c-btn__detail">さらに詳細を見る</a> -->
@@ -72,7 +77,7 @@
 							<!--job-->
 							<div class="p-offer" id="2">
 								<div class="p-offer__thumbnail">
-									<img src="../img/img_company01.png" alt="" class="p-offer__thumbnail__img">
+									<img src="../img/test10.jpg" alt="" class="p-offer__thumbnail__img">
 									<span class="p-offer__thumbnail__iconbox u-fbox u-fbox--alstart u-fbox--wauto">
 										<span class="p-offer__thumbnail__iconbox__icon p-offer__thumbnail__iconbox__icon--good"></span>
 										<span class="p-offer__thumbnail__iconbox__icon p-offer__thumbnail__iconbox__icon--favorite"></span>
@@ -90,6 +95,7 @@
 										<dd class="p-offer__detail__company__url"><a href="" class="p-offer__detail__company__url__text">https://www.xxx.com</a></dd>
 										<dd class="p-offer__detail__company__place u-fbox u-fbox--alcenter u-fbox--wauto">福岡県北九州市</dd>
 									</dl>
+									<div class="p-offer__detail__arrow--down"></div>
 									<div class="p-offer__detail__details">
 										<p class="p-offer__detail__details__item">得意先様からの電話・FAXの注文に対するパソコンでの受注処理が主な業務です。<br>その他医薬品メーカーへの商品の発注や、在庫管理などの事務関連業務全般を行っていただきます。</p>
 										<p class="p-offer__detail__details__item">会社名：SHINRAI GROUP<br>
@@ -128,6 +134,7 @@
 										<dd class="p-offer__detail__company__url"><a href="" class="p-offer__detail__company__url__text">https://www.xxx.com</a></dd>
 										<dd class="p-offer__detail__company__place u-fbox u-fbox--alcenter u-fbox--wauto">福岡県北九州市</dd>
 									</dl>
+									<div class="p-offer__detail__arrow--down"></div>
 									<div class="p-offer__detail__details">
 										<p class="p-offer__detail__details__item">得意先様からの電話・FAXの注文に対するパソコンでの受注処理が主な業務です。<br>その他医薬品メーカーへの商品の発注や、在庫管理などの事務関連業務全般を行っていただきます。</p>
 										<p class="p-offer__detail__details__item">会社名：SHINRAI GROUP<br>
@@ -166,6 +173,7 @@
 										<dd class="p-offer__detail__company__url"><a href="" class="p-offer__detail__company__url__text">https://www.xxx.com</a></dd>
 										<dd class="p-offer__detail__company__place u-fbox u-fbox--alcenter u-fbox--wauto">福岡県北九州市</dd>
 									</dl>
+									<div class="p-offer__detail__arrow--down"></div>
 									<div class="p-offer__detail__details">
 										<p class="p-offer__detail__details__item">得意先様からの電話・FAXの注文に対するパソコンでの受注処理が主な業務です。<br>その他医薬品メーカーへの商品の発注や、在庫管理などの事務関連業務全般を行っていただきます。</p>
 										<p class="p-offer__detail__details__item">会社名：SHINRAI GROUP<br>
@@ -372,11 +380,14 @@ export default {
 		$('.p-form__jobsearch__title + .p-form__jobsearch__item').removeAttr('style');
 	});
 
-	$('.p-offer__detail__company').on('click',function() {
+	$('.p-offer__detail__arrow--down').on('click',function() {
 		$(this).next('.p-offer__detail__details').slideToggle(300);
+		$(this).toggleClass('is-active');
 	});
+	
 	$('.p-offer__detail .c-btn__modalclose').on('click',function() {
 		$(this).parents('.p-offer__detail').find('.p-offer__detail__details').slideToggle(300);
+		$(this).parents('.p-offer__detail').find('.p-offer__detail__arrow--down').toggleClass('is-active');
 	});
 	
 	$('.p-form__jobsearch__title').on('click',function() {
